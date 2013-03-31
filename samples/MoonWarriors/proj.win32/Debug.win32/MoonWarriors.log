@@ -1,0 +1,1094 @@
+﻿Построение начато 31.03.2013 22:04:31.
+     1>Проект "C:\slimenarium\samples\MoonWarriors\proj.win32\MoonWarriors.vcxproj" в узле 3 (целевые объекты rebuild).
+     1>InitializeBuildStatus:
+         Создание "Debug.win32\Slimenarium.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /I..\Classes /I"C:\slimenarium\scripting\javascript\spidermonkey-win32\include" /IC:\slimenarium\external\chipmunk\include\chipmunk /IC:\slimenarium\scripting\javascript\bindings /IC:\slimenarium\extensions /IC:\slimenarium\cocos2dx /IC:\slimenarium\cocos2dx\include /IC:\slimenarium\cocos2dx\kazmath\include /IC:\slimenarium\cocos2dx\platform\win32 /IC:\slimenarium\cocos2dx\platform\third_party\win32 /IC:\slimenarium\cocos2dx\platform\third_party\win32\OGLES /IC:\slimenarium\CocosDenshion\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D STRICT /D _DEBUG /D XP_WIN /D JS_HAVE___INTN /D JS_INTPTR_TYPE=int /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc100.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\..\..\scripting\javascript\bindings\cocos2d_specifics.cpp ..\..\..\scripting\javascript\bindings\cocosjs_manual_conversions.cpp ..\..\..\scripting\javascript\bindings\generated\cocos2dx.cpp ..\..\..\scripting\javascript\bindings\js_manual_conversions.cpp ..\..\..\scripting\javascript\bindings\ScriptingCore.cpp main.cpp ..\Classes\AppDelegate.cpp
+         AppDelegate.cpp
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsutil.h(309): warning C4800: size_t: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(331): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(336): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(346): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(351): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(356): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(361): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(366): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(371): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(376): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(381): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(386): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(391): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(396): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(401): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(406): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(412): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(417): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(493): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(814): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\cocos2d_specifics.hpp(204): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+         main.cpp
+         ScriptingCore.cpp
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsutil.h(309): warning C4800: size_t: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(331): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(336): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(346): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(351): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(356): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(361): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(366): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(371): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(376): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(381): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(386): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(391): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(396): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(401): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(406): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(412): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(417): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(493): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(814): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\cocos2d_specifics.hpp(204): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\scriptingcore.cpp(118): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\scriptingcore.cpp(840): warning C4068: неизвестная директива pragma
+     1>c:\slimenarium\scripting\javascript\bindings\scriptingcore.cpp(1001): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\slimenarium\scripting\javascript\bindings\scriptingcore.cpp(1022): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\slimenarium\scripting\javascript\bindings\scriptingcore.cpp(1143): warning C4068: неизвестная директива pragma
+     1>c:\slimenarium\scripting\javascript\bindings\scriptingcore.cpp(1214): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(302): см. объявление "close"
+     1>c:\slimenarium\scripting\javascript\bindings\scriptingcore.cpp(1219): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(302): см. объявление "close"
+     1>c:\slimenarium\scripting\javascript\bindings\scriptingcore.cpp(1253): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _read. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(313): см. объявление "read"
+     1>c:\slimenarium\scripting\javascript\bindings\scriptingcore.cpp(1279): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _write. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(318): см. объявление "write"
+     1>c:\slimenarium\scripting\javascript\bindings\scriptingcore.cpp(1291): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\io.h(302): см. объявление "close"
+         js_manual_conversions.cpp
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsutil.h(309): warning C4800: size_t: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(331): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(336): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(346): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(351): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(356): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(361): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(366): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(371): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(376): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(381): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(386): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(391): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(396): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(401): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(406): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(412): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(417): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(493): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(814): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+         cocos2dx.cpp
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsutil.h(309): warning C4800: size_t: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(331): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(336): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(346): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(351): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(356): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(361): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(366): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(371): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(376): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(381): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(386): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(391): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(396): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(401): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(406): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(412): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(417): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(493): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(814): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\cocos2d_specifics.hpp(204): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(250): warning C4996: 'cocos2d::CCAction::action': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccaction.h(103): см. объявление "cocos2d::CCAction::action"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(291): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(367): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(454): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(518): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(784): warning C4996: 'cocos2d::CCSpeed::actionWithAction': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccaction.h(190): см. объявление "cocos2d::CCSpeed::actionWithAction"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(809): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(884): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(955): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(1056): warning C4996: 'cocos2d::CCFollow::actionWithTarget': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccaction.h(239): см. объявление "cocos2d::CCFollow::actionWithTarget"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(1081): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(1152): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(1284): warning C4996: 'cocos2d::CCTouch::locationInView': объявлен deprecate
+                 c:\slimenarium\cocos2dx\touch_dispatcher\cctouch.h(60): см. объявление "cocos2d::CCTouch::locationInView"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(1301): warning C4996: 'cocos2d::CCTouch::previousLocationInView': объявлен deprecate
+                 c:\slimenarium\cocos2dx\touch_dispatcher\cctouch.h(66): см. объявление "cocos2d::CCTouch::previousLocationInView"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(1338): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(1408): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(1636): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(1880): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(2028): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(2062): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(2429): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(2555): warning C4083: требуется "("; обнаружен идентификатор "NO"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(2557): warning C4083: требуется "("; обнаружен идентификатор "NO"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(2657): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(2674): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(3136): warning C4996: 'cocos2d::CCNode::node': объявлен deprecate
+                 c:\slimenarium\cocos2dx\base_nodes\ccnode.h(322): см. объявление "cocos2d::CCNode::node"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(3177): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(3320): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(3472): warning C4083: требуется "("; обнаружен идентификатор "NO"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(3523): warning C4083: требуется "("; обнаружен идентификатор "NO"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(3570): warning C4083: требуется "("; обнаружен идентификатор "NO"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(3764): warning C4083: требуется "("; обнаружен идентификатор "NO"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(3768): warning C4083: требуется "("; обнаружен идентификатор "NO"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(3907): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(3922): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(4016): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(4045): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(4278): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(4339): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(4427): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(4427): warning C4996: 'cocos2d::CCSpriteFrame::frameWithTexture': объявлен deprecate
+                 c:\slimenarium\cocos2dx\sprite_nodes\ccspriteframe.h(114): см. объявление "cocos2d::CCSpriteFrame::frameWithTexture"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(4451): warning C4996: 'cocos2d::CCSpriteFrame::frameWithTexture': объявлен deprecate
+                 c:\slimenarium\cocos2dx\sprite_nodes\ccspriteframe.h(102): см. объявление "cocos2d::CCSpriteFrame::frameWithTexture"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(4480): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(4533): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(4586): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(4586): warning C4996: 'cocos2d::CCSpriteFrame::frameWithTextureFilename': объявлен deprecate
+                 c:\slimenarium\cocos2dx\sprite_nodes\ccspriteframe.h(120): см. объявление "cocos2d::CCSpriteFrame::frameWithTextureFilename"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(4604): warning C4996: 'cocos2d::CCSpriteFrame::frameWithTextureFilename': объявлен deprecate
+                 c:\slimenarium\cocos2dx\sprite_nodes\ccspriteframe.h(108): см. объявление "cocos2d::CCSpriteFrame::frameWithTextureFilename"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(4685): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(4878): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(4946): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(5163): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(5271): warning C4996: 'cocos2d::CCAnimation::animationWithSpriteFrames': объявлен deprecate
+                 c:\slimenarium\cocos2dx\sprite_nodes\ccanimation.h(102): см. объявление "cocos2d::CCAnimation::animationWithSpriteFrames"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(5287): warning C4996: 'cocos2d::CCAnimation::animation': объявлен deprecate
+                 c:\slimenarium\cocos2dx\sprite_nodes\ccanimation.h(95): см. объявление "cocos2d::CCAnimation::animation"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(5312): warning C4996: 'cocos2d::CCAnimation::animationWithAnimationFrames': объявлен deprecate
+                 c:\slimenarium\cocos2dx\sprite_nodes\ccanimation.h(108): см. объявление "cocos2d::CCAnimation::animationWithAnimationFrames"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(5337): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(5419): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(5617): warning C4996: 'cocos2d::CCActionInterval::actionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioninterval.h(83): см. объявление "cocos2d::CCActionInterval::actionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(5685): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(5822): warning C4996: 'cocos2d::CCSequence::actionWithArray': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioninterval.h(122): см. объявление "cocos2d::CCSequence::actionWithArray"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(5857): warning C4996: 'cocos2d::CCSequence::actionOneTwo': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioninterval.h(126): см. объявление "cocos2d::CCSequence::actionOneTwo"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(5922): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(6154): warning C4996: 'cocos2d::CCRepeat::actionWithAction': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioninterval.h(178): см. объявление "cocos2d::CCRepeat::actionWithAction"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(6222): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(6434): warning C4996: 'cocos2d::CCRepeatForever::actionWithAction': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioninterval.h(230): см. объявление "cocos2d::CCRepeatForever::actionWithAction"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(6459): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(6531): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(6668): warning C4996: 'cocos2d::CCSpawn::actionWithArray': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioninterval.h(263): см. объявление "cocos2d::CCSpawn::actionWithArray"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(6703): warning C4996: 'cocos2d::CCSpawn::actionOneTwo': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioninterval.h(268): см. объявление "cocos2d::CCSpawn::actionOneTwo"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(6768): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(6880): warning C4996: 'cocos2d::CCRotateTo::actionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioninterval.h(302): см. объявление "cocos2d::CCRotateTo::actionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(6943): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(7079): warning C4996: 'cocos2d::CCRotateBy::actionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioninterval.h(328): см. объявление "cocos2d::CCRotateBy::actionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(7143): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(7255): warning C4996: 'cocos2d::CCMoveTo::actionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioninterval.h(352): см. объявление "cocos2d::CCMoveTo::actionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(7318): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(7437): warning C4996: 'cocos2d::CCMoveBy::actionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioninterval.h(379): см. объявление "cocos2d::CCMoveBy::actionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(7498): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(7616): warning C4996: 'cocos2d::CCSkewTo::actionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioninterval.h(400): см. объявление "cocos2d::CCSkewTo::actionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(7641): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(7709): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(7834): warning C4996: 'cocos2d::CCSkewBy::actionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioninterval.h(429): см. объявление "cocos2d::CCSkewBy::actionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(7895): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(8043): warning C4996: 'cocos2d::CCJumpBy::actionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioninterval.h(451): см. объявление "cocos2d::CCJumpBy::actionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(8107): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(8188): warning C4996: 'cocos2d::CCJumpTo::actionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioninterval.h(473): см. объявление "cocos2d::CCJumpTo::actionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(8247): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(8324): warning C4083: требуется "("; обнаружен идентификатор "NO"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(8397): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(8479): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(8624): warning C4996: 'cocos2d::CCScaleTo::actionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioninterval.h(558): см. объявление "cocos2d::CCScaleTo::actionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(8642): warning C4996: 'cocos2d::CCScaleTo::actionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioninterval.h(553): см. объявление "cocos2d::CCScaleTo::actionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(8706): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(8824): warning C4996: 'cocos2d::CCScaleBy::actionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioninterval.h(594): см. объявление "cocos2d::CCScaleBy::actionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(8842): warning C4996: 'cocos2d::CCScaleBy::actionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioninterval.h(589): см. объявление "cocos2d::CCScaleBy::actionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(8903): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9016): warning C4996: 'cocos2d::CCBlink::actionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioninterval.h(619): см. объявление "cocos2d::CCBlink::actionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9079): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9166): warning C4996: 'cocos2d::CCFadeIn::actionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioninterval.h(640): см. объявление "cocos2d::CCFadeIn::actionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9226): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9313): warning C4996: 'cocos2d::CCFadeOut::actionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioninterval.h(659): см. объявление "cocos2d::CCFadeOut::actionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9373): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9485): warning C4996: 'cocos2d::CCFadeTo::actionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioninterval.h(682): см. объявление "cocos2d::CCFadeTo::actionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9548): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9672): warning C4996: 'cocos2d::CCTintTo::actionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioninterval.h(708): см. объявление "cocos2d::CCTintTo::actionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9735): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9883): warning C4996: 'cocos2d::CCTintBy::actionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioninterval.h(734): см. объявление "cocos2d::CCTintBy::actionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9947): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(10034): warning C4996: 'cocos2d::CCDelayTime::actionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioninterval.h(760): см. объявление "cocos2d::CCDelayTime::actionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(10094): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(10303): warning C4996: 'cocos2d::CCAnimate::actionWithAnimation': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioninterval.h(821): см. объявление "cocos2d::CCAnimate::actionWithAnimation"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(10328): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(10400): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(10609): warning C4996: 'cocos2d::CCTargetedAction::actionWithTarget': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioninterval.h(843): см. объявление "cocos2d::CCTargetedAction::actionWithTarget"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(10634): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(10705): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(10781): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(10844): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(10929): warning C4083: требуется "("; обнаружен идентификатор "NO"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(10930): warning C4083: требуется "("; обнаружен идентификатор "NO"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(10931): warning C4083: требуется "("; обнаружен идентификатор "NO"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(11007): warning C4996: 'cocos2d::CCOrbitCamera::actionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioncamera.h(100): см. объявление "cocos2d::CCOrbitCamera::actionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(11032): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(11101): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(11220): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(11402): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(11474): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(11636): warning C4996: 'cocos2d::CCActionEase::actionWithAction': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactionease.h(63): см. объявление "cocos2d::CCActionEase::actionWithAction"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(11701): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(11849): warning C4996: 'cocos2d::CCEaseRateAction::actionWithAction': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactionease.h(96): см. объявление "cocos2d::CCEaseRateAction::actionWithAction"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(11913): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(12016): warning C4996: 'cocos2d::CCEaseIn::actionWithAction': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactionease.h(119): см. объявление "cocos2d::CCEaseIn::actionWithAction"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(12076): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(12179): warning C4996: 'cocos2d::CCEaseOut::actionWithAction': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactionease.h(140): см. объявление "cocos2d::CCEaseOut::actionWithAction"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(12239): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(12342): warning C4996: 'cocos2d::CCEaseInOut::actionWithAction': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactionease.h(161): см. объявление "cocos2d::CCEaseInOut::actionWithAction"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(12402): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(12501): warning C4996: 'cocos2d::CCEaseExponentialIn::actionWithAction': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactionease.h(182): см. объявление "cocos2d::CCEaseExponentialIn::actionWithAction"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(12561): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(12660): warning C4996: 'cocos2d::CCEaseExponentialOut::actionWithAction': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactionease.h(202): см. объявление "cocos2d::CCEaseExponentialOut::actionWithAction"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(12720): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(12819): warning C4996: 'cocos2d::CCEaseExponentialInOut::actionWithAction': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactionease.h(222): см. объявление "cocos2d::CCEaseExponentialInOut::actionWithAction"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(12879): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(12978): warning C4996: 'cocos2d::CCEaseSineIn::actionWithAction': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactionease.h(243): см. объявление "cocos2d::CCEaseSineIn::actionWithAction"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(13038): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(13137): warning C4996: 'cocos2d::CCEaseSineOut::actionWithAction': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactionease.h(263): см. объявление "cocos2d::CCEaseSineOut::actionWithAction"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(13197): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(13296): warning C4996: 'cocos2d::CCEaseSineInOut::actionWithAction': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactionease.h(283): см. объявление "cocos2d::CCEaseSineInOut::actionWithAction"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(13356): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(13526): warning C4996: 'cocos2d::CCEaseElastic::actionWithAction': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactionease.h(311): см. объявление "cocos2d::CCEaseElastic::actionWithAction"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(13590): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(13715): warning C4996: 'cocos2d::CCEaseElasticIn::actionWithAction': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactionease.h(336): см. объявление "cocos2d::CCEaseElasticIn::actionWithAction"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(13775): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(13900): warning C4996: 'cocos2d::CCEaseElasticOut::actionWithAction': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactionease.h(359): см. объявление "cocos2d::CCEaseElasticOut::actionWithAction"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(13960): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(14085): warning C4996: 'cocos2d::CCEaseElasticInOut::actionWithAction': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactionease.h(383): см. объявление "cocos2d::CCEaseElasticInOut::actionWithAction"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(14145): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(14247): warning C4996: 'cocos2d::CCEaseBounce::actionWithAction': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactionease.h(406): см. объявление "cocos2d::CCEaseBounce::actionWithAction"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(14307): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(14406): warning C4996: 'cocos2d::CCEaseBounceIn::actionWithAction': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactionease.h(428): см. объявление "cocos2d::CCEaseBounceIn::actionWithAction"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(14466): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(14565): warning C4996: 'cocos2d::CCEaseBounceOut::actionWithAction': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactionease.h(450): см. объявление "cocos2d::CCEaseBounceOut::actionWithAction"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(14625): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(14724): warning C4996: 'cocos2d::CCEaseBounceInOut::actionWithAction': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactionease.h(472): см. объявление "cocos2d::CCEaseBounceInOut::actionWithAction"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(14784): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(14883): warning C4996: 'cocos2d::CCEaseBackIn::actionWithAction': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactionease.h(494): см. объявление "cocos2d::CCEaseBackIn::actionWithAction"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(14943): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(15042): warning C4996: 'cocos2d::CCEaseBackOut::actionWithAction': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactionease.h(516): см. объявление "cocos2d::CCEaseBackOut::actionWithAction"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(15102): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(15201): warning C4996: 'cocos2d::CCEaseBackInOut::actionWithAction': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactionease.h(538): см. объявление "cocos2d::CCEaseBackInOut::actionWithAction"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(15261): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(15365): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(15428): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(15489): warning C4996: 'cocos2d::CCShow::action': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioninstant.h(75): см. объявление "cocos2d::CCShow::action"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(15530): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(15595): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(15656): warning C4996: 'cocos2d::CCHide::action': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioninstant.h(100): см. объявление "cocos2d::CCHide::action"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(15697): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(15762): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(15799): warning C4996: 'cocos2d::CCToggleVisibility::action': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioninstant.h(121): см. объявление "cocos2d::CCToggleVisibility::action"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(15840): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(15904): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(15933): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(15990): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(15990): warning C4996: 'cocos2d::CCFlipX::actionWithFlipX': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioninstant.h(142): см. объявление "cocos2d::CCFlipX::actionWithFlipX"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(16011): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(16036): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(16104): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(16133): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(16190): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(16211): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(16211): warning C4996: 'cocos2d::CCFlipY::actionWithFlipY': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioninstant.h(173): см. объявление "cocos2d::CCFlipY::actionWithFlipY"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(16236): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(16304): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(16366): warning C4996: 'cocos2d::CCPlace::actionWithPosition': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioninstant.h(199): см. объявление "cocos2d::CCPlace::actionWithPosition"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(16412): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(16479): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(16629): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(16696): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(16839): warning C4996: 'cocos2d::CCGridAction::actionWithSize': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactiongrid.h(57): см. объявление "cocos2d::CCGridAction::actionWithSize"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(16903): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(16933): warning C4083: требуется "("; обнаружен идентификатор "NO"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(16977): warning C4083: требуется "("; обнаружен идентификатор "NO"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(16997): warning C4083: требуется "("; обнаружен идентификатор "NO"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(17048): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(17079): warning C4083: требуется "("; обнаружен идентификатор "NO"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(17098): warning C4083: требуется "("; обнаружен идентификатор "NO"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(17118): warning C4083: требуется "("; обнаружен идентификатор "NO"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(17193): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(17362): warning C4996: 'cocos2d::CCWaves3D::actionWithWaves': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactiongrid3d.h(59): см. объявление "cocos2d::CCWaves3D::actionWithWaves"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(17428): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(17533): warning C4996: 'cocos2d::CCFlipX3D::actionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactiongrid3d.h(82): см. объявление "cocos2d::CCFlipX3D::actionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(17594): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(17657): warning C4996: 'cocos2d::CCFlipY3D::actionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactiongrid3d.h(98): см. объявление "cocos2d::CCFlipY3D::actionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(17716): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(17751): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(17790): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(17817): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(17817): warning C4996: 'cocos2d::CCShaky3D::actionWithRange': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactiongrid3d.h(189): см. объявление "cocos2d::CCShaky3D::actionWithRange"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(17879): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(17991): warning C4996: 'cocos2d::CCProgressTo::actionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactionprogresstimer.h(55): см. объявление "cocos2d::CCProgressTo::actionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(18054): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(18196): warning C4996: 'cocos2d::CCProgressFromTo::actionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactionprogresstimer.h(82): см. объявление "cocos2d::CCProgressFromTo::actionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(18260): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(18402): warning C4996: 'cocos2d::CCFadeOutTRTiles::actionWithSize': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactiontiledgrid.h(137): см. объявление "cocos2d::CCFadeOutTRTiles::actionWithSize"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(18465): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(18537): warning C4996: 'cocos2d::CCFadeOutBLTiles::actionWithSize': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactiontiledgrid.h(155): см. объявление "cocos2d::CCFadeOutBLTiles::actionWithSize"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(18596): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(18687): warning C4996: 'cocos2d::CCFadeOutUpTiles::actionWithSize': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactiontiledgrid.h(174): см. объявление "cocos2d::CCFadeOutUpTiles::actionWithSize"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(18747): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(18819): warning C4996: 'cocos2d::CCFadeOutDownTiles::actionWithSize': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactiontiledgrid.h(192): см. объявление "cocos2d::CCFadeOutDownTiles::actionWithSize"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(18878): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(19020): warning C4996: 'cocos2d::CCJumpTiles3D::actionWithJumps': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactiontiledgrid.h(290): см. объявление "cocos2d::CCJumpTiles3D::actionWithJumps"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(19113): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(19261): warning C4996: 'cocos2d::CCActionTween::actionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactiontween.h(68): см. объявление "cocos2d::CCActionTween::actionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(19325): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(19572): warning C4996: 'cocos2d::CCPointArray::arrayWithCapacity': объявлен deprecate
+                 c:\slimenarium\cocos2dx\actions\ccactioncatmullrom.h(61): см. объявление "cocos2d::CCPointArray::arrayWithCapacity"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(19597): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(19673): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(19837): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(19904): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(19997): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(20061): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(20148): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(20235): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(20543): warning C4996: 'cocos2d::CCAtlasNode::atlasWithTileFile': объявлен deprecate
+                 c:\slimenarium\cocos2dx\base_nodes\ccatlasnode.h(90): см. объявление "cocos2d::CCAtlasNode::atlasWithTileFile"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(20568): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(20646): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(20729): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(20996): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(21240): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(21275): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(21292): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(21360): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(21408): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(21472): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(21537): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(21619): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(21627): warning C4996: 'cocos2d::CCSprite::node': объявлен deprecate
+                 c:\slimenarium\cocos2dx\sprite_nodes\ccsprite.h(202): см. объявление "cocos2d::CCSprite::node"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(21654): warning C4996: 'cocos2d::CCSprite::spriteWithSpriteFrame': объявлен deprecate
+                 c:\slimenarium\cocos2dx\sprite_nodes\ccsprite.h(155): см. объявление "cocos2d::CCSprite::spriteWithSpriteFrame"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(21676): warning C4996: 'cocos2d::CCSprite::spriteWithFile': объявлен deprecate
+                 c:\slimenarium\cocos2dx\sprite_nodes\ccsprite.h(186): см. объявление "cocos2d::CCSprite::spriteWithFile"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(21692): warning C4996: 'cocos2d::CCSprite::spriteWithFile': объявлен deprecate
+                 c:\slimenarium\cocos2dx\sprite_nodes\ccsprite.h(180): см. объявление "cocos2d::CCSprite::spriteWithFile"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(21767): warning C4996: 'cocos2d::CCSprite::spriteWithSpriteFrameName': объявлен deprecate
+                 c:\slimenarium\cocos2dx\sprite_nodes\ccsprite.h(163): см. объявление "cocos2d::CCSprite::spriteWithSpriteFrameName"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(21816): warning C4996: 'cocos2d::CCSprite::spriteWithTexture': объявлен deprecate
+                 c:\slimenarium\cocos2dx\sprite_nodes\ccsprite.h(139): см. объявление "cocos2d::CCSprite::spriteWithTexture"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(21838): warning C4996: 'cocos2d::CCSprite::spriteWithTexture': объявлен deprecate
+                 c:\slimenarium\cocos2dx\sprite_nodes\ccsprite.h(133): см. объявление "cocos2d::CCSprite::spriteWithTexture"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(21942): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(22061): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(22477): warning C4996: 'cocos2d::CCLabelTTF::labelWithString': объявлен deprecate
+                 c:\slimenarium\cocos2dx\label_nodes\cclabelttf.h(62): см. объявление "cocos2d::CCLabelTTF::labelWithString"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(22497): warning C4996: 'cocos2d::CCLabelTTF::labelWithString': объявлен deprecate
+                 c:\slimenarium\cocos2dx\label_nodes\cclabelttf.h(56): см. объявление "cocos2d::CCLabelTTF::labelWithString"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(22523): warning C4996: 'cocos2d::CCLabelTTF::labelWithString': объявлен deprecate
+                 c:\slimenarium\cocos2dx\label_nodes\cclabelttf.h(67): см. объявление "cocos2d::CCLabelTTF::labelWithString"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(22549): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(22629): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(22769): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(22903): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(23339): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(23395): warning C4083: требуется "("; обнаружен идентификатор "NO"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(23447): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(23626): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(23785): warning C4996: 'cocos2d::CCLabelAtlas::labelWithString': объявлен deprecate
+                 c:\slimenarium\cocos2dx\label_nodes\cclabelatlas.h(70): см. объявление "cocos2d::CCLabelAtlas::labelWithString"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(23809): warning C4996: 'cocos2d::CCLabelAtlas::labelWithString': объявлен deprecate
+                 c:\slimenarium\cocos2dx\label_nodes\cclabelatlas.h(64): см. объявление "cocos2d::CCLabelAtlas::labelWithString"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(23835): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(23904): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(23956): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(24066): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(24305): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(24460): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(24507): warning C4996: 'cocos2d::CCSpriteBatchNode::batchNodeWithTexture': объявлен deprecate
+                 c:\slimenarium\cocos2dx\sprite_nodes\ccspritebatchnode.h(88): см. объявление "cocos2d::CCSpriteBatchNode::batchNodeWithTexture"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(24620): warning C4996: 'cocos2d::CCSpriteBatchNode::batchNodeWithFile': объявлен deprecate
+                 c:\slimenarium\cocos2dx\sprite_nodes\ccspritebatchnode.h(95): см. объявление "cocos2d::CCSpriteBatchNode::batchNodeWithFile"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(24707): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(24870): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(24971): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(25039): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(25104): warning C4996: 'cocos2d::CCLabelBMFont::node': объявлен deprecate
+                 c:\slimenarium\cocos2dx\label_nodes\cclabelbmfont.h(221): см. объявление "cocos2d::CCLabelBMFont::node"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(25236): warning C4996: 'cocos2d::CCLabelBMFont::labelWithString': объявлен deprecate
+                 c:\slimenarium\cocos2dx\label_nodes\cclabelbmfont.h(208): см. объявление "cocos2d::CCLabelBMFont::labelWithString"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(25261): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(25349): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(25546): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(25628): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(25764): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(25764): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(25877): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(25899): warning C4996: 'cocos2d::CCLayer::node': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cclayer.h(69): см. объявление "cocos2d::CCLayer::node"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(25940): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(26029): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(26270): warning C4996: 'cocos2d::CCLayerColor::layerWithColor': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cclayer.h(183): см. объявление "cocos2d::CCLayerColor::layerWithColor"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(26290): warning C4996: 'cocos2d::CCLayerColor::layerWithColor': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cclayer.h(179): см. объявление "cocos2d::CCLayerColor::layerWithColor"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(26371): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(26448): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(26562): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(26736): warning C4996: 'cocos2d::CCLayerGradient::layerWithColor': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cclayer.h(261): см. объявление "cocos2d::CCLayerGradient::layerWithColor"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(26754): warning C4996: 'cocos2d::CCLayerGradient::layerWithColor': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cclayer.h(256): см. объявление "cocos2d::CCLayerGradient::layerWithColor"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(26886): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(26923): warning C4996: 'cocos2d::CCScene::node': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\ccscene.h(55): см. объявление "cocos2d::CCScene::node"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(26964): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(27028): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(27120): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(27266): warning C4996: 'cocos2d::CCTransitionScene::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransition.h(96): см. объявление "cocos2d::CCTransitionScene::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(27291): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(27361): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(27457): warning C4996: 'cocos2d::CCTransitionSceneOriented::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransition.h(132): см. объявление "cocos2d::CCTransitionSceneOriented::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(27482): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(27548): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(27610): warning C4996: 'cocos2d::CCTransitionRotoZoom::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransition.h(151): см. объявление "cocos2d::CCTransitionRotoZoom::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(27635): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(27696): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(27758): warning C4996: 'cocos2d::CCTransitionJumpZoom::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransition.h(165): см. объявление "cocos2d::CCTransitionJumpZoom::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(27783): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(27844): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(27977): warning C4996: 'cocos2d::CCTransitionMoveInL::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransition.h(186): см. объявление "cocos2d::CCTransitionMoveInL::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(28002): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(28068): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(28144): warning C4996: 'cocos2d::CCTransitionMoveInR::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransition.h(200): см. объявление "cocos2d::CCTransitionMoveInR::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(28169): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(28233): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(28309): warning C4996: 'cocos2d::CCTransitionMoveInT::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransition.h(214): см. объявление "cocos2d::CCTransitionMoveInT::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(28334): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(28398): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(28474): warning C4996: 'cocos2d::CCTransitionMoveInB::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransition.h(228): см. объявление "cocos2d::CCTransitionMoveInB::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(28499): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(28563): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(28696): warning C4996: 'cocos2d::CCTransitionSlideInL::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransition.h(250): см. объявление "cocos2d::CCTransitionSlideInL::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(28721): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(28787): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(28887): warning C4996: 'cocos2d::CCTransitionSlideInR::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransition.h(270): см. объявление "cocos2d::CCTransitionSlideInR::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(28912): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(28977): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(29077): warning C4996: 'cocos2d::CCTransitionSlideInB::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransition.h(290): см. объявление "cocos2d::CCTransitionSlideInB::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(29102): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(29167): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(29267): warning C4996: 'cocos2d::CCTransitionSlideInT::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransition.h(310): см. объявление "cocos2d::CCTransitionSlideInT::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(29292): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(29357): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(29452): warning C4996: 'cocos2d::CCTransitionShrinkGrow::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransition.h(328): см. объявление "cocos2d::CCTransitionShrinkGrow::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(29477): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(29541): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(29631): warning C4996: 'cocos2d::CCTransitionFlipX::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransition.h(345): см. объявление "cocos2d::CCTransitionFlipX::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(29656): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(29717): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(29807): warning C4996: 'cocos2d::CCTransitionFlipY::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransition.h(363): см. объявление "cocos2d::CCTransitionFlipY::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(29832): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(29893): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(29983): warning C4996: 'cocos2d::CCTransitionFlipAngular::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransition.h(381): см. объявление "cocos2d::CCTransitionFlipAngular::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(30008): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(30069): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(30159): warning C4996: 'cocos2d::CCTransitionZoomFlipX::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransition.h(399): см. объявление "cocos2d::CCTransitionZoomFlipX::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(30184): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(30245): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(30335): warning C4996: 'cocos2d::CCTransitionZoomFlipY::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransition.h(417): см. объявление "cocos2d::CCTransitionZoomFlipY::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(30360): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(30421): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(30511): warning C4996: 'cocos2d::CCTransitionZoomFlipAngular::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransition.h(435): см. объявление "cocos2d::CCTransitionZoomFlipAngular::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(30536): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(30597): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(30733): warning C4996: 'cocos2d::CCTransitionFade::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransition.h(457): см. объявление "cocos2d::CCTransitionFade::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(30758): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(30824): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(30900): warning C4996: 'cocos2d::CCTransitionCrossFade::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransition.h(489): см. объявление "cocos2d::CCTransitionCrossFade::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(30925): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(30989): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(31084): warning C4996: 'cocos2d::CCTransitionTurnOffTiles::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransition.h(506): см. объявление "cocos2d::CCTransitionTurnOffTiles::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(31109): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(31173): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(31292): warning C4996: 'cocos2d::CCTransitionSplitCols::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransition.h(526): см. объявление "cocos2d::CCTransitionSplitCols::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(31317): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(31382): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(31468): warning C4996: 'cocos2d::CCTransitionSplitRows::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransition.h(542): см. объявление "cocos2d::CCTransitionSplitRows::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(31493): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(31557): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(31679): warning C4996: 'cocos2d::CCTransitionFadeTR::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransition.h(559): см. объявление "cocos2d::CCTransitionFadeTR::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(31704): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(31769): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(31858): warning C4996: 'cocos2d::CCTransitionFadeBL::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransition.h(576): см. объявление "cocos2d::CCTransitionFadeBL::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(31883): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(31947): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(32036): warning C4996: 'cocos2d::CCTransitionFadeUp::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransition.h(591): см. объявление "cocos2d::CCTransitionFadeUp::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(32061): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(32125): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(32214): warning C4996: 'cocos2d::CCTransitionFadeDown::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransition.h(606): см. объявление "cocos2d::CCTransitionFadeDown::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(32239): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(32303): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(32369): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(32395): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(32426): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(32426): warning C4996: 'cocos2d::CCTransitionPageTurn::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransitionpageturn.h(64): см. объявление "cocos2d::CCTransitionPageTurn::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(32451): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(32518): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(32580): warning C4996: 'cocos2d::CCTransitionProgress::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransitionprogress.h(45): см. объявление "cocos2d::CCTransitionProgress::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(32605): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(32668): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(32730): warning C4996: 'cocos2d::CCTransitionProgressRadialCCW::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransitionprogress.h(67): см. объявление "cocos2d::CCTransitionProgressRadialCCW::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(32786): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(32848): warning C4996: 'cocos2d::CCTransitionProgressRadialCW::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransitionprogress.h(81): см. объявление "cocos2d::CCTransitionProgressRadialCW::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(32904): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(32966): warning C4996: 'cocos2d::CCTransitionProgressHorizontal::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransitionprogress.h(94): см. объявление "cocos2d::CCTransitionProgressHorizontal::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(33022): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(33084): warning C4996: 'cocos2d::CCTransitionProgressVertical::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransitionprogress.h(104): см. объявление "cocos2d::CCTransitionProgressVertical::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(33140): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(33202): warning C4996: 'cocos2d::CCTransitionProgressInOut::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransitionprogress.h(114): см. объявление "cocos2d::CCTransitionProgressInOut::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(33258): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(33320): warning C4996: 'cocos2d::CCTransitionProgressOutIn::transitionWithDuration': объявлен deprecate
+                 c:\slimenarium\cocos2dx\layers_scenes_transitions_nodes\cctransitionprogress.h(125): см. объявление "cocos2d::CCTransitionProgressOutIn::transitionWithDuration"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(33376): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(33433): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(33563): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(33634): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(33663): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(33890): warning C4996: 'cocos2d::CCMenuItemLabel::itemWithLabel': объявлен deprecate
+                 c:\slimenarium\cocos2dx\menu_nodes\ccmenuitem.h(135): см. объявление "cocos2d::CCMenuItemLabel::itemWithLabel"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(33915): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(33992): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(34025): warning C4996: 'cocos2d::CCMenuItemAtlasFont::itemWithString': объявлен deprecate
+                 c:\slimenarium\cocos2dx\menu_nodes\ccmenuitem.h(178): см. объявление "cocos2d::CCMenuItemAtlasFont::itemWithString"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(34050): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(34110): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(34243): warning C4996: 'cocos2d::CCMenuItemFont::itemWithString': объявлен deprecate
+                 c:\slimenarium\cocos2dx\menu_nodes\ccmenuitem.h(212): см. объявление "cocos2d::CCMenuItemFont::itemWithString"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(34268): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(34340): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(34369): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(34641): warning C4996: 'cocos2d::CCMenuItemSprite::itemWithNormalSprite': объявлен deprecate
+                 c:\slimenarium\cocos2dx\menu_nodes\ccmenuitem.h(276): см. объявление "cocos2d::CCMenuItemSprite::itemWithNormalSprite"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(34666): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(34743): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(34849): warning C4996: 'cocos2d::CCMenuItemImage::node': объявлен deprecate
+                 c:\slimenarium\cocos2dx\menu_nodes\ccmenuitem.h(366): см. объявление "cocos2d::CCMenuItemImage::node"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(34873): warning C4996: 'cocos2d::CCMenuItemImage::itemWithNormalImage': объявлен deprecate
+                 c:\slimenarium\cocos2dx\menu_nodes\ccmenuitem.h(335): см. объявление "cocos2d::CCMenuItemImage::itemWithNormalImage"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(34891): warning C4996: 'cocos2d::CCMenuItemImage::itemWithNormalImage': объявлен deprecate
+                 c:\slimenarium\cocos2dx\menu_nodes\ccmenuitem.h(331): см. объявление "cocos2d::CCMenuItemImage::itemWithNormalImage"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(34917): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(34984): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(35073): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(35266): warning C4996: 'cocos2d::CCMenuItemToggle::itemWithItem': объявлен deprecate
+                 c:\slimenarium\cocos2dx\menu_nodes\ccmenuitem.h(416): см. объявление "cocos2d::CCMenuItemToggle::itemWithItem"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(35291): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(35369): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(35698): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(35802): warning C4996: 'cocos2d::CCMenu::node': объявлен deprecate
+                 c:\slimenarium\cocos2dx\menu_nodes\ccmenu.h(75): см. объявление "cocos2d::CCMenu::node"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(35823): warning C4996: 'cocos2d::CCMenu::menuWithArray': объявлен deprecate
+                 c:\slimenarium\cocos2dx\menu_nodes\ccmenu.h(85): см. объявление "cocos2d::CCMenu::menuWithArray"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(35850): warning C4996: 'cocos2d::CCMenu::menuWithItem': объявлен deprecate
+                 c:\slimenarium\cocos2dx\menu_nodes\ccmenu.h(92): см. объявление "cocos2d::CCMenu::menuWithItem"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(35875): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(35960): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(36025): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(36031): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(36367): warning C4996: 'cocos2d::CCProgressTimer::progressWithSprite': объявлен deprecate
+                 c:\slimenarium\cocos2dx\misc_nodes\ccprogresstimer.h(93): см. объявление "cocos2d::CCProgressTimer::progressWithSprite"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(36392): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(36476): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(36819): warning C4996: 'cocos2d::CCRenderTexture::renderTextureWithWidthAndHeight': объявлен deprecate
+                 c:\slimenarium\cocos2dx\misc_nodes\ccrendertexture.h(74): см. объявление "cocos2d::CCRenderTexture::renderTextureWithWidthAndHeight"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(36841): warning C4996: 'cocos2d::CCRenderTexture::renderTextureWithWidthAndHeight': объявлен deprecate
+                 c:\slimenarium\cocos2dx\misc_nodes\ccrendertexture.h(69): см. объявление "cocos2d::CCRenderTexture::renderTextureWithWidthAndHeight"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(36859): warning C4996: 'cocos2d::CCRenderTexture::renderTextureWithWidthAndHeight': объявлен deprecate
+                 c:\slimenarium\cocos2dx\misc_nodes\ccrendertexture.h(79): см. объявление "cocos2d::CCRenderTexture::renderTextureWithWidthAndHeight"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(36950): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(37028): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(37059): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(37244): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(37293): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(37415): warning C4996: 'cocos2d::CCParticleBatchNode::batchNodeWithTexture': объявлен deprecate
+                 c:\slimenarium\cocos2dx\particle_nodes\ccparticlebatchnode.h(76): см. объявление "cocos2d::CCParticleBatchNode::batchNodeWithTexture"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(37490): warning C4996: 'cocos2d::CCParticleBatchNode::batchNodeWithFile': объявлен deprecate
+                 c:\slimenarium\cocos2dx\particle_nodes\ccparticlebatchnode.h(81): см. объявление "cocos2d::CCParticleBatchNode::batchNodeWithFile"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(37515): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(37597): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(38357): warning C4083: требуется "("; обнаружен идентификатор "NO"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(38593): warning C4083: требуется "("; обнаружен идентификатор "NO"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(38679): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(38960): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(39370): warning C4996: 'cocos2d::CCParticleSystem::particleWithFile': объявлен deprecate
+                 c:\slimenarium\cocos2dx\particle_nodes\ccparticlesystem.h(376): см. объявление "cocos2d::CCParticleSystem::particleWithFile"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(39437): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(39604): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(39754): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(39822): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(39879): warning C4996: 'cocos2d::CCParticleFire::node': объявлен deprecate
+                 c:\slimenarium\cocos2dx\particle_nodes\ccparticleexamples.h(47): см. объявление "cocos2d::CCParticleFire::node"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(39920): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(39985): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(40042): warning C4996: 'cocos2d::CCParticleFireworks::node': объявлен deprecate
+                 c:\slimenarium\cocos2dx\particle_nodes\ccparticleexamples.h(61): см. объявление "cocos2d::CCParticleFireworks::node"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(40083): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(40148): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(40205): warning C4996: 'cocos2d::CCParticleSun::node': объявлен deprecate
+                 c:\slimenarium\cocos2dx\particle_nodes\ccparticleexamples.h(75): см. объявление "cocos2d::CCParticleSun::node"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(40246): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(40311): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(40368): warning C4996: 'cocos2d::CCParticleGalaxy::node': объявлен deprecate
+                 c:\slimenarium\cocos2dx\particle_nodes\ccparticleexamples.h(89): см. объявление "cocos2d::CCParticleGalaxy::node"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(40409): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(40474): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(40531): warning C4996: 'cocos2d::CCParticleFlower::node': объявлен deprecate
+                 c:\slimenarium\cocos2dx\particle_nodes\ccparticleexamples.h(103): см. объявление "cocos2d::CCParticleFlower::node"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(40572): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(40637): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(40694): warning C4996: 'cocos2d::CCParticleMeteor::node': объявлен deprecate
+                 c:\slimenarium\cocos2dx\particle_nodes\ccparticleexamples.h(116): см. объявление "cocos2d::CCParticleMeteor::node"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(40735): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(40800): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(40857): warning C4996: 'cocos2d::CCParticleSpiral::node': объявлен deprecate
+                 c:\slimenarium\cocos2dx\particle_nodes\ccparticleexamples.h(129): см. объявление "cocos2d::CCParticleSpiral::node"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(40898): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(40963): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(41020): warning C4996: 'cocos2d::CCParticleExplosion::node': объявлен deprecate
+                 c:\slimenarium\cocos2dx\particle_nodes\ccparticleexamples.h(143): см. объявление "cocos2d::CCParticleExplosion::node"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(41061): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(41126): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(41183): warning C4996: 'cocos2d::CCParticleSmoke::node': объявлен deprecate
+                 c:\slimenarium\cocos2dx\particle_nodes\ccparticleexamples.h(157): см. объявление "cocos2d::CCParticleSmoke::node"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(41224): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(41289): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(41346): warning C4996: 'cocos2d::CCParticleSnow::node': объявлен deprecate
+                 c:\slimenarium\cocos2dx\particle_nodes\ccparticleexamples.h(171): см. объявление "cocos2d::CCParticleSnow::node"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(41387): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(41452): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(41509): warning C4996: 'cocos2d::CCParticleRain::node': объявлен deprecate
+                 c:\slimenarium\cocos2dx\particle_nodes\ccparticleexamples.h(185): см. объявление "cocos2d::CCParticleRain::node"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(41550): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(41615): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(41792): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(41863): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(42152): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(42431): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(42507): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(42596): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(42621): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(42637): warning C4083: требуется "("; обнаружен идентификатор "NO"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(42654): warning C4083: требуется "("; обнаружен идентификатор "NO"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(42663): warning C4996: 'cocos2d::CCParallaxNode::node': объявлен deprecate
+                 c:\slimenarium\cocos2dx\tilemap_parallax_nodes\ccparallaxnode.h(59): см. объявление "cocos2d::CCParallaxNode::node"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(42704): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(42775): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(43007): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(43078): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(43154): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(43217): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(43266): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(43328): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(43486): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(43985): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(44082): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(44141): warning C4083: требуется "("; обнаружен идентификатор "NO"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(44231): warning C4083: требуется "("; обнаружен идентификатор "NO"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(44262): warning C4083: требуется "("; обнаружен идентификатор "NO"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(44556): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(44666): warning C4996: 'cocos2d::CCTMXLayer::layerWithTilesetInfo': объявлен deprecate
+                 c:\slimenarium\cocos2dx\tilemap_parallax_nodes\cctmxlayer.h(94): см. объявление "cocos2d::CCTMXLayer::layerWithTilesetInfo"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(44734): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(44824): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(45182): warning C4996: 'cocos2d::CCTMXTiledMap::tiledMapWithTMXFile': объявлен deprecate
+                 c:\slimenarium\cocos2dx\tilemap_parallax_nodes\cctmxtiledmap.h(128): см. объявление "cocos2d::CCTMXTiledMap::tiledMapWithTMXFile"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(45205): warning C4996: 'cocos2d::CCTMXTiledMap::tiledMapWithXML': объявлен deprecate
+                 c:\slimenarium\cocos2dx\tilemap_parallax_nodes\cctmxtiledmap.h(133): см. объявление "cocos2d::CCTMXTiledMap::tiledMapWithXML"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(45274): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(45357): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(45425): warning C4083: требуется "("; обнаружен идентификатор "NO"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(45445): warning C4083: требуется "("; обнаружен идентификатор "NO"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(45481): warning C4083: требуется "("; обнаружен идентификатор "NO"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(45528): warning C4996: 'cocos2d::CCTileMapAtlas::tileMapAtlasWithTileFile': объявлен deprecate
+                 c:\slimenarium\cocos2dx\tilemap_parallax_nodes\cctilemapatlas.h(68): см. объявление "cocos2d::CCTileMapAtlas::tileMapAtlasWithTileFile"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(45553): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(45624): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(45766): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(45835): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(45938): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(46169): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(46206): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(46283): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(46417): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(46519): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(46547): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(46629): warning C4083: требуется "("; обнаружен идентификатор "NO"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(46772): warning C4101: t: неиспользованная локальная переменная
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(4679): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCSpriteFrame>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(5679): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCActionInterval>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(5916): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCSequence>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(6216): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCRepeat>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(6762): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCSpawn>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(6937): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCRotateTo>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(7137): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCRotateBy>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(7312): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCMoveTo>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(7492): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCMoveBy>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(7889): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCSkewBy>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(8101): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCJumpBy>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(8241): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCJumpTo>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(8391): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCBezierBy>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(8473): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCBezierTo>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(8700): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCScaleTo>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(8897): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCScaleBy>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9073): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCBlink>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9220): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCFadeIn>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9367): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCFadeOut>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9542): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCFadeTo>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9729): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCTintTo>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9941): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCTintBy>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(10088): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCDelayTime>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(11695): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCActionEase>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(11907): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCEaseRateAction>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(12070): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCEaseIn>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(12233): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCEaseOut>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(12396): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCEaseInOut>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(12555): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCEaseExponentialIn>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(12714): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCEaseExponentialOut>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(12873): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCEaseExponentialInOut>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(13032): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCEaseSineIn>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(13191): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCEaseSineOut>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(13350): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCEaseSineInOut>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(13584): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCEaseElastic>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(13769): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCEaseElasticIn>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(13954): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCEaseElasticOut>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(14139): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCEaseElasticInOut>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(14301): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCEaseBounce>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(14460): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCEaseBounceIn>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(14619): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCEaseBounceOut>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(14778): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCEaseBounceInOut>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(14937): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCEaseBackIn>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(15096): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCEaseBackOut>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(15255): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCEaseBackInOut>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(16897): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCGridAction>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(17042): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCGrid3DAction>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(17187): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCTiledGrid3DAction>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(17422): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCWaves3D>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(17588): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCFlipX3D>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(17710): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCFlipY3D>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(17873): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCShaky3D>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(18048): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCProgressTo>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(18254): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCProgressFromTo>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(18459): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCFadeOutTRTiles>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(18590): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCFadeOutBLTiles>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(18741): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCFadeOutUpTiles>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(18872): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCFadeOutDownTiles>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(19107): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCJumpTiles3D>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(19319): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCActionTween>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(20142): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCCatmullRomTo>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(20229): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCCatmullRomBy>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(24701): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCSpriteBatchNode>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(26880): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCLayerGradient>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(32780): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCTransitionProgressRadialCCW>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(32898): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCTransitionProgressRadialCW>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(33016): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCTransitionProgressHorizontal>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(33134): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCTransitionProgressVertical>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(33252): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCTransitionProgressInOut>(JSContext *,uint32_t,jsval *)"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(9): warning C4101: t: неиспользованная локальная переменная
+                 c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(33370): см. ссылку на создание экземпляров функции шаблон при компиляции "JSBool dummy_constructor<cocos2d::CCTransitionProgressOutIn>(JSContext *,uint32_t,jsval *)"
+         cocosjs_manual_conversions.cpp
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsutil.h(309): warning C4800: size_t: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(331): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(336): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(346): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(351): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(356): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(361): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(366): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(371): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(376): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(381): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(386): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(391): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(396): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(401): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(406): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(412): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(417): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(493): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(814): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+         cocos2d_specifics.cpp
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsutil.h(309): warning C4800: size_t: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(331): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(336): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(346): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(351): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(356): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(361): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(366): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(371): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(376): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(381): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(386): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(391): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(396): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(401): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(406): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(412): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(417): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(493): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\spidermonkey-win32\include\jsapi.h(814): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\cocos2d_specifics.hpp(204): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\cocos2d_specifics.cpp(67): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\slimenarium\scripting\javascript\bindings\cocos2d_specifics.cpp(86): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\slimenarium\scripting\javascript\bindings\cocos2d_specifics.cpp(145): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\slimenarium\scripting\javascript\bindings\cocos2d_specifics.cpp(183): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\slimenarium\scripting\javascript\bindings\cocos2d_specifics.cpp(345): warning C4018: <: несоответствие типов со знаком и без знака
+     1>c:\slimenarium\scripting\javascript\bindings\cocos2d_specifics.cpp(463): warning C4800: JSBool: принудительно задано логическое значение "true" или "false" (предупреждение о производительности)
+     1>c:\slimenarium\scripting\javascript\bindings\cocos2d_specifics.cpp(866): warning C4101: t: неиспользованная локальная переменная
+         Создание кода...
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(2558): warning C4700: использована неинициализированная локальная переменная "arg1"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(2558): warning C4700: использована неинициализированная локальная переменная "arg0"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(3473): warning C4700: использована неинициализированная локальная переменная "arg0"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(3524): warning C4700: использована неинициализированная локальная переменная "arg0"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(3575): warning C4700: использована неинициализированная локальная переменная "arg0"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(3766): warning C4700: использована неинициализированная локальная переменная "arg0"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(3769): warning C4700: использована неинициализированная локальная переменная "jsret"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(10932): warning C4700: использована неинициализированная локальная переменная "arg2"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(10932): warning C4700: использована неинициализированная локальная переменная "arg1"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(10932): warning C4700: использована неинициализированная локальная переменная "arg0"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(16978): warning C4700: использована неинициализированная локальная переменная "jsret"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(16998): warning C4700: использована неинициализированная локальная переменная "jsret"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(17080): warning C4700: использована неинициализированная локальная переменная "jsret"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(17119): warning C4700: использована неинициализированная локальная переменная "jsret"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(23396): warning C4700: использована неинициализированная локальная переменная "jsret"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(38359): warning C4700: использована неинициализированная локальная переменная "arg0"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(38594): warning C4700: использована неинициализированная локальная переменная "arg0"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(42638): warning C4700: использована неинициализированная локальная переменная "jsret"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(42655): warning C4700: использована неинициализированная локальная переменная "arg0"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(44142): warning C4700: использована неинициализированная локальная переменная "arg1"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(44232): warning C4700: использована неинициализированная локальная переменная "jsret"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(44263): warning C4700: использована неинициализированная локальная переменная "arg0"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(45426): warning C4700: использована неинициализированная локальная переменная "jsret"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(45446): warning C4700: использована неинициализированная локальная переменная "jsret"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(45482): warning C4700: использована неинициализированная локальная переменная "arg0"
+     1>c:\slimenarium\scripting\javascript\bindings\generated\cocos2dx.cpp(46630): warning C4700: использована неинициализированная локальная переменная "jsret"
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /l"0x0409" /IDebug.win32\ /nologo /fo"Debug.win32\testjs.res" testjs.rc 
+       PreLinkEvent:
+         if not exist "C:\slimenarium\Debug.win32\" mkdir "C:\slimenarium\Debug.win32\"
+         xcopy /Y /Q "C:\slimenarium\scripting\javascript\spidermonkey-win32\lib\*.*" "C:\slimenarium\Debug.win32\"
+         
+         :VCEnd
+         Скопировано файлов: 2.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\slimenarium\Debug.win32\Slimenarium.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\slimenarium\Debug.win32\ libcocos2d.lib libExtensions.lib opengl32.lib glew32.lib libCocosDenshion.lib mozjs.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug.win32\Slimenarium.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\slimenarium\Debug.win32\Slimenarium.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\slimenarium\Debug.win32\Slimenarium.lib" /MACHINE:X86 Debug.win32\testjs.res
+         Debug.win32\cocos2d_specifics.obj
+         Debug.win32\cocosjs_manual_conversions.obj
+         Debug.win32\cocos2dx.obj
+         Debug.win32\js_manual_conversions.obj
+         Debug.win32\ScriptingCore.obj
+         Debug.win32\main.obj
+         Debug.win32\AppDelegate.obj
+         C:\slimenarium\Debug.win32\libcocos2d.lib
+         C:\slimenarium\Debug.win32\libCocosDenshion.lib
+     1>cocos2d_specifics.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/INCREMENTAL:NO"
+         MoonWarriors.vcxproj -> C:\slimenarium\Debug.win32\Slimenarium.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\slimenarium\Debug.win32\Slimenarium.exe;#1" /manifest Debug.win32\Slimenarium.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Файл "Debug.win32\Slimenarium.unsuccessfulbuild" удаляется.
+         Обращение к "Debug.win32\Slimenarium.lastbuildstate".
+     1>Построение проекта "C:\slimenarium\samples\MoonWarriors\proj.win32\MoonWarriors.vcxproj" завершено (целевые объекты rebuild).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:19.23
